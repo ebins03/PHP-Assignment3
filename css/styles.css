@@ -1,0 +1,128 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray */
+}
+
+/* Header styles */
+#banner {
+    background-color: #25dcdc; 
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#banner h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#banner h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation menu styles */
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #99dfdf; 
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav ul li a:hover {
+    background-color: rgb(174, 209, 208); 
+    border-radius: 5px;
+}
+
+#img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+}
+
+#welcome{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 50px;
+    color: rgb(152, 49, 49);
+}
+
+.content {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+/* Form styles */
+form {
+    margin: 0 auto;
+    width: 300px; /* Adjust the width as needed */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding and border included in width */
+}
+
+form input[type="submit"],
+form button {
+    background-color: #8da399; /* Light green-gray */
+    color: #fff; /* White */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #46504d; /* Darker green-gray */
+}
+
+/* Footer styles */
+footer {
+    background-color: #25dcdc; 
+    color: #fff; /* White */
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    top: 174px;
+    bottom: 0;
+    width: 100%;
+}
